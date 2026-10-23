@@ -4,6 +4,8 @@
 
 ClashCheck is a desktop timetable prototype built with Python and Tkinter. It helps students check for overlapping events and insufficient travel time between events at different physical locations.
 
+View the source code: **[Application interface](interface.py)** | **[Clash checking logic](clash_logic.py)** | **[Program entry point](main.py)**.
+
 ## Features
 
 - Add events with a weekday, name, start time, end time and location.
@@ -29,7 +31,7 @@ If Tkinter is missing, install the Tkinter support provided by your Python distr
 ## Run the prototype
 
 1. Download the repository using **Code > Download ZIP**, then extract it, or clone the repository.
-2. Open a terminal in the `clashcheck_project` subfolder, which contains `main.py`.
+2. Open a terminal in the extracted project folder containing `main.py`.
 3. Run:
 
 ```sh
@@ -58,15 +60,15 @@ A travel warning appears when two non-overlapping events are at different physic
 
 | File | Purpose |
 | --- | --- |
-| [main.py](clashcheck_project/main.py) | Starts the application |
-| [interface.py](clashcheck_project/interface.py) | Tkinter interface and user actions |
-| [clash_logic.py](clashcheck_project/clash_logic.py) | Time conversion and clash detection |
-| [settings.py](clashcheck_project/settings.py) | Weekdays, locations and example timetable |
-| [test_logic.py](clashcheck_project/test_logic.py) | Unit tests for the checking logic |
+| [main.py](main.py) | Starts the application |
+| [interface.py](interface.py) | Tkinter interface and user actions |
+| [clash_logic.py](clash_logic.py) | Time conversion and clash detection |
+| [settings.py](settings.py) | Weekdays, locations and example timetable |
+| [test_logic.py](test_logic.py) | Unit tests for the checking logic |
 
 ## Tests
 
-Run the existing unit tests from the `clashcheck_project` folder:
+Run the existing unit tests from the project folder:
 
 ```sh
 python -m unittest -v test_logic.py
