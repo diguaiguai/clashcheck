@@ -12,4 +12,3 @@ Use Python 3 with Tkinter installed, download `ClashCheck.py`, then run:
 python ClashCheck.py
 ```
 
-No third-party packages are required.
